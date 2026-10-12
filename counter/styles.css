@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap');
+
+/* ---------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    -color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: ##222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Open sans', sans-serif;
+}
+#counter-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter {
+    width: 40rem;
+    border: 1px solid var(--grey);
+    padding: 1.8rem;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+}
+.counter > * {
+    margin-bottom: 2rem;
+}
+.count {
+    font-size: 2rem;
+}
+.button-group button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: var(--white);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 549;
+    cursor: pointer;;
+}
+button.subtract {
+    background-color: orangered;
+    color: whitesmoke;
+}
+button.add {
+    background-color: greenyellow;
+    color: var(--black);
+}
+button.reset {
+    background-color: aqua;
+    color: blueviolet;
+}
